@@ -47,14 +47,14 @@ export default PostDetails;
 // Fetch data at build time
 export async function getStaticProps({ params }) {
   const data = await getPostDetails(params.slug);
-  if (!data) {
-    return {
-      redirect: {
-        destination: '/',
-        permanent: false,
-      },
-    }
-  }
+  // if (!data) {
+  //   return {
+  //     redirect: {
+  //       destination: '/',
+  //       permanent: false,
+  //     },
+  //   }
+  // }
   return {
     props: { post: data },
     revalidate: 1

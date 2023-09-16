@@ -9,15 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "graphql": "^15.6.1",
-    "graphql-request": "^3.5.0",
-    "html-react-parser": "^1.4.0",
-    "moment": "^2.29.1",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "graphql": "^16.8.0",
+    "graphql-request": "^6.1.0",
+    "html-react-parser": "^4.2.2",
+    "moment": "^2.29.4",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
-    "react-multi-carousel": "^2.6.5",
+    "react-multi-carousel": "^2.8.4",
     "sass": "^1.42.1",
     "swr": "^1.0.1"
   },
